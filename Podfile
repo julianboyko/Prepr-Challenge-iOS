@@ -12,5 +12,7 @@ target 'Julian_Boyko_Prepr_Challenge' do
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
 	pod 'CodableFirebase'
+	pod 'GoogleMaps'
+  	pod 'GooglePlaces'
 
 end

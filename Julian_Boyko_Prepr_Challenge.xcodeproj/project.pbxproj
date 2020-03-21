@@ -149,6 +149,7 @@
 				E8B727782425239800D38417 /* Frameworks */,
 				E8B727792425239800D38417 /* Resources */,
 				4CB53479C33E6AC5117DEFA4 /* [CP] Embed Pods Frameworks */,
+				9686F05E6A8BEE993AD2016C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -245,6 +246,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9686F05E6A8BEE993AD2016C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
