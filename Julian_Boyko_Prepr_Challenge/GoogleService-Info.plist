@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>261498406434-j2l04asirc4iaehi7affa9ugbc06gmq0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.261498406434-j2l04asirc4iaehi7affa9ugbc06gmq0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCdFnIcGebo3iZ6cntp_F-dTGnFAknkljQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>261498406434</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.supremeapps.Julian-Boyko-Prepr-Challenge</string>
+	<key>PROJECT_ID</key>
+	<string>prepr-ios-challenge</string>
+	<key>STORAGE_BUCKET</key>
+	<string>prepr-ios-challenge.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:261498406434:ios:04c37e6132bc63a8632c7b</string>
+	<key>DATABASE_URL</key>
+	<string>https://prepr-ios-challenge.firebaseio.com</string>
+</dict>
+</plist>

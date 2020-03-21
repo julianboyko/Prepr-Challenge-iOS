@@ -3,27 +3,51 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96256AB8371E88554C15B5CB /* Pods_Julian_Boyko_Prepr_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F254E3CCDB5F67CD49CC11 /* Pods_Julian_Boyko_Prepr_Challenge.framework */; };
+		E82C540E24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C540D24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift */; };
+		E82C5410242568210070B9A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82C540F242568200070B9A7 /* GoogleService-Info.plist */; };
+		E82C541424259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C541324259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift */; };
+		E82C54172425A55C0070B9A7 /* Ocean.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = E82C54162425A55C0070B9A7 /* Ocean.mp4 */; };
+		E82C54192425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C54182425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift */; };
+		E82C541B2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C541A2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift */; };
+		E8AA7C1B24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AA7C1A24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift */; };
 		E8B7277F2425239800D38417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7277E2425239800D38417 /* AppDelegate.swift */; };
 		E8B727812425239800D38417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B727802425239800D38417 /* SceneDelegate.swift */; };
-		E8B727832425239800D38417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B727822425239800D38417 /* ViewController.swift */; };
 		E8B727862425239800D38417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B727842425239800D38417 /* Main.storyboard */; };
 		E8B727882425239E00D38417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8B727872425239E00D38417 /* Assets.xcassets */; };
 		E8B7278B2425239E00D38417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B727892425239E00D38417 /* LaunchScreen.storyboard */; };
+		E8B727932425243200D38417 /* Julian_Boyko_iOS_Developer_SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B727922425243200D38417 /* Julian_Boyko_iOS_Developer_SignUpVC.swift */; };
+		E8B727952425245A00D38417 /* Julian_Boyko_iOS_Developer_LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B727942425245A00D38417 /* Julian_Boyko_iOS_Developer_LoginVC.swift */; };
+		E8B727972425247700D38417 /* Julian_Boyko_iOS_Developer_HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B727962425247700D38417 /* Julian_Boyko_iOS_Developer_HomeVC.swift */; };
+		E8B7279A242524F500D38417 /* Julian_Boyko_iOS_Developer_MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B72799242524F500D38417 /* Julian_Boyko_iOS_Developer_MainVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E8B7277B2425239800D38417 /* Julian_Boyko_Prepr_Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Julian_Boyko_Prepr_Challenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		026F93526EFCE5B0CC79BB38 /* Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AC30DA3B93EA5E74E0F71A36 /* Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig"; path = "Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		E82C540D24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_Utilities.swift; sourceTree = "<group>"; };
+		E82C540F242568200070B9A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E82C541324259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_Environment.swift; sourceTree = "<group>"; };
+		E82C54162425A55C0070B9A7 /* Ocean.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ocean.mp4; sourceTree = "<group>"; };
+		E82C54182425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_AddAddressVC.swift; sourceTree = "<group>"; };
+		E82C541A2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_Address.swift; sourceTree = "<group>"; };
+		E8AA7C1A24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_AddressDetailVC.swift; sourceTree = "<group>"; };
+		E8B7277B2425239800D38417 /* Prepr Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prepr Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B7277E2425239800D38417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B727802425239800D38417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E8B727822425239800D38417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8B727852425239800D38417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8B727872425239E00D38417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8B7278A2425239E00D38417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8B7278C2425239E00D38417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B727922425243200D38417 /* Julian_Boyko_iOS_Developer_SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_SignUpVC.swift; sourceTree = "<group>"; };
+		E8B727942425245A00D38417 /* Julian_Boyko_iOS_Developer_LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_LoginVC.swift; sourceTree = "<group>"; };
+		E8B727962425247700D38417 /* Julian_Boyko_iOS_Developer_HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_HomeVC.swift; sourceTree = "<group>"; };
+		E8B72799242524F500D38417 /* Julian_Boyko_iOS_Developer_MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_MainVC.swift; sourceTree = "<group>"; };
+		F0F254E3CCDB5F67CD49CC11 /* Pods_Julian_Boyko_Prepr_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Julian_Boyko_Prepr_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +55,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96256AB8371E88554C15B5CB /* Pods_Julian_Boyko_Prepr_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32E0FEFD8966E5838CEAB34D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				026F93526EFCE5B0CC79BB38 /* Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig */,
+				AC30DA3B93EA5E74E0F71A36 /* Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9408CB8E093406FDB3C72F10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0F254E3CCDB5F67CD49CC11 /* Pods_Julian_Boyko_Prepr_Challenge.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E82C54152425A5420070B9A7 /* Multimedia */ = {
+			isa = PBXGroup;
+			children = (
+				E82C54162425A55C0070B9A7 /* Ocean.mp4 */,
+			);
+			path = Multimedia;
+			sourceTree = "<group>";
+		};
 		E8B727722425239800D38417 = {
 			isa = PBXGroup;
 			children = (
 				E8B7277D2425239800D38417 /* Julian_Boyko_Prepr_Challenge */,
 				E8B7277C2425239800D38417 /* Products */,
+				32E0FEFD8966E5838CEAB34D /* Pods */,
+				9408CB8E093406FDB3C72F10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		E8B7277C2425239800D38417 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8B7277B2425239800D38417 /* Julian_Boyko_Prepr_Challenge.app */,
+				E8B7277B2425239800D38417 /* Prepr Challenge.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +108,33 @@
 		E8B7277D2425239800D38417 /* Julian_Boyko_Prepr_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				E82C54152425A5420070B9A7 /* Multimedia */,
+				E82C540D24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift */,
+				E82C541324259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift */,
+				E82C541A2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift */,
+				E8B727982425247D00D38417 /* View Controllers */,
 				E8B7277E2425239800D38417 /* AppDelegate.swift */,
 				E8B727802425239800D38417 /* SceneDelegate.swift */,
-				E8B727822425239800D38417 /* ViewController.swift */,
 				E8B727842425239800D38417 /* Main.storyboard */,
 				E8B727872425239E00D38417 /* Assets.xcassets */,
 				E8B727892425239E00D38417 /* LaunchScreen.storyboard */,
 				E8B7278C2425239E00D38417 /* Info.plist */,
+				E82C540F242568200070B9A7 /* GoogleService-Info.plist */,
 			);
 			path = Julian_Boyko_Prepr_Challenge;
+			sourceTree = "<group>";
+		};
+		E8B727982425247D00D38417 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E8B727922425243200D38417 /* Julian_Boyko_iOS_Developer_SignUpVC.swift */,
+				E8B727942425245A00D38417 /* Julian_Boyko_iOS_Developer_LoginVC.swift */,
+				E8B727962425247700D38417 /* Julian_Boyko_iOS_Developer_HomeVC.swift */,
+				E8AA7C1A24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift */,
+				E8B72799242524F500D38417 /* Julian_Boyko_iOS_Developer_MainVC.swift */,
+				E82C54182425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E8B7278F2425239E00D38417 /* Build configuration list for PBXNativeTarget "Julian_Boyko_Prepr_Challenge" */;
 			buildPhases = (
+				43AF27055DA29F818570350E /* [CP] Check Pods Manifest.lock */,
 				E8B727772425239800D38417 /* Sources */,
 				E8B727782425239800D38417 /* Frameworks */,
 				E8B727792425239800D38417 /* Resources */,
+				4CB53479C33E6AC5117DEFA4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +156,7 @@
 			);
 			name = Julian_Boyko_Prepr_Challenge;
 			productName = Julian_Boyko_Prepr_Challenge;
-			productReference = E8B7277B2425239800D38417 /* Julian_Boyko_Prepr_Challenge.app */;
+			productReference = E8B7277B2425239800D38417 /* Prepr Challenge.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,21 +198,73 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8B7278B2425239E00D38417 /* LaunchScreen.storyboard in Resources */,
+				E82C5410242568210070B9A7 /* GoogleService-Info.plist in Resources */,
 				E8B727882425239E00D38417 /* Assets.xcassets in Resources */,
 				E8B727862425239800D38417 /* Main.storyboard in Resources */,
+				E82C54172425A55C0070B9A7 /* Ocean.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43AF27055DA29F818570350E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Julian_Boyko_Prepr_Challenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CB53479C33E6AC5117DEFA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E8B727772425239800D38417 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B727832425239800D38417 /* ViewController.swift in Sources */,
+				E82C541424259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift in Sources */,
+				E82C541B2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift in Sources */,
+				E8AA7C1B24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift in Sources */,
 				E8B7277F2425239800D38417 /* AppDelegate.swift in Sources */,
+				E8B727972425247700D38417 /* Julian_Boyko_iOS_Developer_HomeVC.swift in Sources */,
+				E82C54192425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift in Sources */,
 				E8B727812425239800D38417 /* SceneDelegate.swift in Sources */,
+				E82C540E24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift in Sources */,
+				E8B727932425243200D38417 /* Julian_Boyko_iOS_Developer_SignUpVC.swift in Sources */,
+				E8B7279A242524F500D38417 /* Julian_Boyko_iOS_Developer_MainVC.swift in Sources */,
+				E8B727952425245A00D38417 /* Julian_Boyko_iOS_Developer_LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +406,7 @@
 		};
 		E8B727902425239E00D38417 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 026F93526EFCE5B0CC79BB38 /* Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -292,7 +417,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.supremeapps.Julian-Boyko-Prepr-Challenge";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Prepr Challenge";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +425,7 @@
 		};
 		E8B727912425239E00D38417 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC30DA3B93EA5E74E0F71A36 /* Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +436,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.supremeapps.Julian-Boyko-Prepr-Challenge";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Prepr Challenge";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
