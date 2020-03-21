@@ -257,12 +257,20 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MSl-n1-VcK">
+                                <rect key="frame" x="20" y="132" width="374" height="609"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="biV-oz-Jsc" firstAttribute="trailing" secondItem="BZ4-Hg-FHY" secondAttribute="trailing" constant="40" id="BYs-sU-5Ua"/>
                             <constraint firstItem="Vwr-Rt-Gsx" firstAttribute="leading" secondItem="biV-oz-Jsc" secondAttribute="leading" constant="40" id="Bzn-O3-aNU"/>
+                            <constraint firstItem="BZ4-Hg-FHY" firstAttribute="top" secondItem="MSl-n1-VcK" secondAttribute="bottom" constant="31" id="IM4-Je-GVE"/>
                             <constraint firstItem="Vwr-Rt-Gsx" firstAttribute="top" secondItem="biV-oz-Jsc" secondAttribute="top" constant="40" id="QbW-BH-TCZ"/>
+                            <constraint firstItem="MSl-n1-VcK" firstAttribute="leading" secondItem="C8E-Ev-HcI" secondAttribute="leadingMargin" id="SYR-Oh-IOI"/>
+                            <constraint firstItem="MSl-n1-VcK" firstAttribute="top" secondItem="Vwr-Rt-Gsx" secondAttribute="bottom" constant="27.5" id="X4j-Yg-5jC"/>
+                            <constraint firstItem="MSl-n1-VcK" firstAttribute="centerX" secondItem="Vwr-Rt-Gsx" secondAttribute="centerX" id="iRj-cJ-W9b"/>
                             <constraint firstItem="biV-oz-Jsc" firstAttribute="trailing" secondItem="Vwr-Rt-Gsx" secondAttribute="trailing" constant="40" id="onR-q6-WZT"/>
                             <constraint firstItem="BZ4-Hg-FHY" firstAttribute="leading" secondItem="biV-oz-Jsc" secondAttribute="leading" constant="40" id="qDS-ic-Qph"/>
                             <constraint firstItem="biV-oz-Jsc" firstAttribute="bottom" secondItem="BZ4-Hg-FHY" secondAttribute="bottom" constant="40" id="sLp-ch-I9O"/>
@@ -273,11 +281,12 @@
                     <connections>
                         <outlet property="addressTitleLabel" destination="Vwr-Rt-Gsx" id="WOd-mF-SJG"/>
                         <outlet property="backButton" destination="eiD-tP-liz" id="FfO-Tx-3ES"/>
+                        <outlet property="viewForMap" destination="MSl-n1-VcK" id="WTw-O0-cIZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l9B-0t-eq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3897" y="853"/>
+            <point key="canvasLocation" x="3895.652173913044" y="852.45535714285711"/>
         </scene>
         <!--Julian Boyko iOS Developer Add AddressVC-->
         <scene sceneID="yQ8-NS-7pO">

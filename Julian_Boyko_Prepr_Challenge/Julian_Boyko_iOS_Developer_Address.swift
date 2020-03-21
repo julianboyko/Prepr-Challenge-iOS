@@ -23,5 +23,9 @@ struct Address: Codable {
         self.postalCode = postalCode
     }
     
+    func getAddress() -> String {
+        return streetAddress + ", " + city + ", " + province + ", " + postalCode
+    }
+    
 }
 
