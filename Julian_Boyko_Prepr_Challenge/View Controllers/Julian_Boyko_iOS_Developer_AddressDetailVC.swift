@@ -41,10 +41,14 @@ class Julian_Boyko_iOS_Developer_AddressDetailVC: UIViewController {
         geocoder.geocodeAddressString(passedInAddress!.getAddress()) { (placemarkers, error) in
             print(self.passedInAddress!.getAddress())
             let placemark = placemarkers?.first
-            lat = (placemark?.location?.coordinate.latitude)!
-            lon = (placemark?.location?.coordinate.longitude)!
-            
-            self.setUpGoogleMap(lat: lat, lon: lon)
+            if placemark?.location != nil {
+                lat = (placemark?.location?.coordinate.latitude)!
+                lon = (placemark?.location?.coordinate.longitude)!
+                
+                self.setUpGoogleMap(lat: lat, lon: lon)
+            } else {
+                self.displayError(error: "Failed mapping address: " + self.passedInAddress!.getAddress())
+            }
         }
     }
     
@@ -62,6 +66,10 @@ class Julian_Boyko_iOS_Developer_AddressDetailVC: UIViewController {
         }
     }
     
+    func displayError(error: String) {
+        addressTitleLabel.text = error
+        addressTitleLabel.textColor = .red
+    }
     
     @IBAction func backButtonTapped(_ sender: Any) {
         self.navigationController?.popViewController(animated: true)
