@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96256AB8371E88554C15B5CB /* Pods_Julian_Boyko_Prepr_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F254E3CCDB5F67CD49CC11 /* Pods_Julian_Boyko_Prepr_Challenge.framework */; };
+		981921E27EF7F119D7B08361 /* Pods_Julian_Boyko_Prepr_Challenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B6E7EA4F4C9F1230C0E7AD8 /* Pods_Julian_Boyko_Prepr_Challenge.framework */; };
 		E82C540E24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C540D24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift */; };
 		E82C5410242568210070B9A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82C540F242568200070B9A7 /* GoogleService-Info.plist */; };
 		E82C541424259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C541324259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift */; };
@@ -28,7 +28,10 @@
 
 /* Begin PBXFileReference section */
 		026F93526EFCE5B0CC79BB38 /* Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig"; path = "Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge.debug.xcconfig"; sourceTree = "<group>"; };
+		4B6E7EA4F4C9F1230C0E7AD8 /* Pods_Julian_Boyko_Prepr_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Julian_Boyko_Prepr_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC30DA3B93EA5E74E0F71A36 /* Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig"; path = "Target Support Files/Pods-Julian_Boyko_Prepr_Challenge/Pods-Julian_Boyko_Prepr_Challenge.release.xcconfig"; sourceTree = "<group>"; };
+		E817F15C2426DDF80036C7C3 /* CodableFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CodableFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E817F15F2426DFE30036C7C3 /* CodableFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CodableFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82C540D24252EBE0070B9A7 /* Julian_Boyko_iOS_Developer_Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_Utilities.swift; sourceTree = "<group>"; };
 		E82C540F242568200070B9A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E82C541324259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_Environment.swift; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		E8B727942425245A00D38417 /* Julian_Boyko_iOS_Developer_LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_LoginVC.swift; sourceTree = "<group>"; };
 		E8B727962425247700D38417 /* Julian_Boyko_iOS_Developer_HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_HomeVC.swift; sourceTree = "<group>"; };
 		E8B72799242524F500D38417 /* Julian_Boyko_iOS_Developer_MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_MainVC.swift; sourceTree = "<group>"; };
-		F0F254E3CCDB5F67CD49CC11 /* Pods_Julian_Boyko_Prepr_Challenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Julian_Boyko_Prepr_Challenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96256AB8371E88554C15B5CB /* Pods_Julian_Boyko_Prepr_Challenge.framework in Frameworks */,
+				981921E27EF7F119D7B08361 /* Pods_Julian_Boyko_Prepr_Challenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +76,9 @@
 		9408CB8E093406FDB3C72F10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F0F254E3CCDB5F67CD49CC11 /* Pods_Julian_Boyko_Prepr_Challenge.framework */,
+				E817F15F2426DFE30036C7C3 /* CodableFirebase.framework */,
+				E817F15C2426DDF80036C7C3 /* CodableFirebase.framework */,
+				4B6E7EA4F4C9F1230C0E7AD8 /* Pods_Julian_Boyko_Prepr_Challenge.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -148,8 +152,8 @@
 				E8B727772425239800D38417 /* Sources */,
 				E8B727782425239800D38417 /* Frameworks */,
 				E8B727792425239800D38417 /* Resources */,
-				4CB53479C33E6AC5117DEFA4 /* [CP] Embed Pods Frameworks */,
 				9686F05E6A8BEE993AD2016C /* [CP] Copy Pods Resources */,
+				668AEE773EF7308E031EE95B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +235,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4CB53479C33E6AC5117DEFA4 /* [CP] Embed Pods Frameworks */ = {
+		668AEE773EF7308E031EE95B /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

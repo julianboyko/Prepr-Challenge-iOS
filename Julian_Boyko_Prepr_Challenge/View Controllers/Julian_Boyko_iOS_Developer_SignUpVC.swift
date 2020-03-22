@@ -63,7 +63,7 @@ class Julian_Boyko_iOS_Developer_SignUpVC: UIViewController {
                                password: passwordTextField.text!) { (result, error) in
                                 
                                 if error != nil {
-                                    self.displayError(error: "Firebase error creating user")
+                                    self.displayError(error: "Firebase error: " + error!.localizedDescription)
                                 } else {
                                     let firebaseDB = Firestore.firestore()
                                     // Adds a user to the firestore database by their unique UID
