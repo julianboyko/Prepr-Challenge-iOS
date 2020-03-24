@@ -47,7 +47,7 @@ class Julian_Boyko_iOS_Developer_AddressDetailVC: UIViewController {
                 
                 self.setUpGoogleMap(lat: lat, lon: lon)
             } else {
-                self.displayError(error: "Failed mapping address: " + self.passedInAddress!.getAddress())
+                self.addressTitleLabel.displayError("Failed mapping address: " + self.passedInAddress!.getAddress())
             }
         }
     }
@@ -64,11 +64,6 @@ class Julian_Boyko_iOS_Developer_AddressDetailVC: UIViewController {
             marker.snippet = passedInAddress!.getAddress()
             marker.map = mapView
         }
-    }
-    
-    func displayError(error: String) {
-        addressTitleLabel.text = error
-        addressTitleLabel.textColor = .red
     }
     
     @IBAction func backButtonTapped(_ sender: Any) {

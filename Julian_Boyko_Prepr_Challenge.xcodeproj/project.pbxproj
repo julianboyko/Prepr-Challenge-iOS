@@ -15,6 +15,7 @@
 		E82C54192425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C54182425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift */; };
 		E82C541B2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82C541A2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift */; };
 		E8AA7C1B24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AA7C1A24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift */; };
+		E8B481A72427C34100040CDE /* Julian_Boyko_iOS_Developer_LabelDisplayError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B481A62427C34100040CDE /* Julian_Boyko_iOS_Developer_LabelDisplayError.swift */; };
 		E8B7277F2425239800D38417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B7277E2425239800D38417 /* AppDelegate.swift */; };
 		E8B727812425239800D38417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B727802425239800D38417 /* SceneDelegate.swift */; };
 		E8B727862425239800D38417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8B727842425239800D38417 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 		E82C54182425BCA70070B9A7 /* Julian_Boyko_iOS_Developer_AddAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_AddAddressVC.swift; sourceTree = "<group>"; };
 		E82C541A2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_Address.swift; sourceTree = "<group>"; };
 		E8AA7C1A24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_AddressDetailVC.swift; sourceTree = "<group>"; };
+		E8B481A62427C34100040CDE /* Julian_Boyko_iOS_Developer_LabelDisplayError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Julian_Boyko_iOS_Developer_LabelDisplayError.swift; sourceTree = "<group>"; };
 		E8B7277B2425239800D38417 /* Prepr Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prepr Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8B7277E2425239800D38417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8B727802425239800D38417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		E8B7277D2425239800D38417 /* Julian_Boyko_Prepr_Challenge */ = {
 			isa = PBXGroup;
 			children = (
+				E8B481A62427C34100040CDE /* Julian_Boyko_iOS_Developer_LabelDisplayError.swift */,
 				E88F19E124270A9F0037BCF4 /* Classes */,
 				E88F19E024270A920037BCF4 /* Helpers */,
 				E82C54152425A5420070B9A7 /* Multimedia */,
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E82C541424259A6C0070B9A7 /* Julian_Boyko_iOS_Developer_Environment.swift in Sources */,
+				E8B481A72427C34100040CDE /* Julian_Boyko_iOS_Developer_LabelDisplayError.swift in Sources */,
 				E82C541B2425C96E0070B9A7 /* Julian_Boyko_iOS_Developer_Address.swift in Sources */,
 				E8AA7C1B24269D81000AC537 /* Julian_Boyko_iOS_Developer_AddressDetailVC.swift in Sources */,
 				E8B7277F2425239800D38417 /* AppDelegate.swift in Sources */,
