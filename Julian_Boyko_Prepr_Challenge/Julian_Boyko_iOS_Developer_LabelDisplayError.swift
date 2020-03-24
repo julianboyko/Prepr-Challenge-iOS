@@ -7,3 +7,12 @@
 //
 
 import Foundation
+import UIKit
+
+extension UILabel {
+    func displayError(_ error: String) {
+        self.text = error
+        self.textColor = .red
+        self.alpha = 1
+    }
+}
