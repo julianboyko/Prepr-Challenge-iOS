@@ -55,7 +55,7 @@ class Julian_Boyko_iOS_Developer_SignUpVC: UIViewController {
         let errorMessage = validateFields()
         
         if errorMessage != nil {
-            displayError(error: errorMessage!)
+            errorLabel.displayError(errorMessage!)
             return
         }
         
@@ -63,7 +63,7 @@ class Julian_Boyko_iOS_Developer_SignUpVC: UIViewController {
                                password: passwordTextField.text!) { (result, error) in
                                 
                                 if error != nil {
-                                    self.displayError(error: "Firebase error: " + error!.localizedDescription)
+                                    self.errorLabel.displayError("Firebase error: " + error!.localizedDescription)
                                 } else {
                                     let firebaseDB = Firestore.firestore()
                                     // Adds a user to the firestore database by their unique UID
@@ -74,7 +74,7 @@ class Julian_Boyko_iOS_Developer_SignUpVC: UIViewController {
                                             "uid": result!.user.uid
                                     ]) { (error) in
                                         if error != nil {
-                                            self.displayError(error: "Firebase failed storing user first name and last name")
+                                            self.errorLabel.displayError("Firebase failed storing user first name and last name")
                                         }
                                     }
                                     
@@ -98,12 +98,7 @@ class Julian_Boyko_iOS_Developer_SignUpVC: UIViewController {
         
         return nil
     }
-    
-    func displayError(error: String) {
-        errorLabel.text = error
-        errorLabel.alpha = 1
-    }
-    
+
     func goToHomeScreen() {
         let homeNavigationController = storyboard?.instantiateViewController(identifier: Environment.Storyboard.homeNavigationController) as? UINavigationController
         

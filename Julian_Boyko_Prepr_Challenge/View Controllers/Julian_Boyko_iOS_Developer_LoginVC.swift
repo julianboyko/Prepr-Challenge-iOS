@@ -48,7 +48,7 @@ class Julian_Boyko_iOS_Developer_LoginVC: UIViewController {
         let errorMessage = validateFields()
         
         if errorMessage != nil {
-            displayError(error: errorMessage!)
+            errorLabel.displayError(errorMessage!)
             return
         }
         
@@ -56,7 +56,7 @@ class Julian_Boyko_iOS_Developer_LoginVC: UIViewController {
                            password: passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)) { (results, error) in
                             
                             if error != nil {
-                                self.displayError(error: error!.localizedDescription)
+                                self.errorLabel.displayError(error!.localizedDescription)
                             } else {
                                 self.goToHomeScreen()
                             }
@@ -71,11 +71,6 @@ class Julian_Boyko_iOS_Developer_LoginVC: UIViewController {
         }
         
         return nil
-    }
-    
-    func displayError(error: String) {
-        errorLabel.text = error
-        errorLabel.alpha = 1
     }
     
     func goToHomeScreen() {
