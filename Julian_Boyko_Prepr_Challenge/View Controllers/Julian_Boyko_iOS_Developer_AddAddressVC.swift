@@ -51,7 +51,7 @@ class Julian_Boyko_iOS_Developer_AddAddressVC: UIViewController {
         let errorMessage = validateFields()
         
         if errorMessage != nil {
-            displayError(error: errorMessage!)
+            errorLabel.displayError(errorMessage!)
             return
         }
         
@@ -75,11 +75,6 @@ class Julian_Boyko_iOS_Developer_AddAddressVC: UIViewController {
         }
         
         return nil
-    }
-    
-    func displayError(error: String) {
-        errorLabel.text = error
-        errorLabel.alpha = 1
     }
     
     @IBAction func backButtonTapped(_ sender: Any) {
