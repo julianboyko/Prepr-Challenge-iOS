@@ -3,6 +3,17 @@ Challenge: Create an app that uses a database, includes authentication (users, l
 
 Result: This app uses Firebase to store user documents and includes a signup/login/logout flow. Additionally, you can store addresses under your user account, which once cilcked displays a GoogleMap of the location with a marker. 
 
-Video of App in Use: https://www.youtube.com/watch?v=DjSd73X5_zw&lc=z230stairwq5ezbjz04t1aokgk3qz3stwkkvmbkza3nqrk0h00410
+## Video of App in Use: https://www.youtube.com/watch?v=DjSd73X5_zw&lc=z230stairwq5ezbjz04t1aokgk3qz3stwkkvmbkza3nqrk0h00410
 
 To install the app, first run 'pod install' in terminal inside the project directory.
+
+# Screenshots
+
+## Login or Signup!
+![](/README-Images/MainScreen.png) ![](/README-Images/SignUp.png)
+
+## Add Addresses To Your Address Book!
+![](/README-Images/BlankScreen.png) ![](/README-Images/AddAddress.png)
+
+## See All Your Addresses & View Them!
+![](/README-Images/AddressAdded.png) ![](/README-Images/ViewAddress.png)
